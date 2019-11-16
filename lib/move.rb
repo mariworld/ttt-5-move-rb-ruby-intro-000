@@ -12,6 +12,9 @@ def input_to_index(user_input)
     puts "#{user_input}"
     converted_input = user_input.to_i - 1
 end
+
+def move(board,converted_input,character = "X")
+end
 #     converted_input = user_input.to_i - 1
 # end
 # puts "Welcome to Tic Tac Toe!"
