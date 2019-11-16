@@ -5,5 +5,5 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcome to Tic Tac Toe!"
-move
+move(board,converted_input,character = "X")
 display_board(board)
